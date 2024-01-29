@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Assignment 03</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <center>
+        <table class="table1">
+            <tr>
+                <th colspan="6">Provide Your Data Here</th><br><br>
+            </tr>
+            <tr>
+                <th colspan="6">Obtained Marks Out of 100</th>
+                
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>English</th>
+                <th>Urdu</th>
+                <th>Islamiat</th>
+                <th>Physics</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="naaam"></td>
+                <td><input type="number" id="ma-marks"></td>
+                <td><input type="number" id="en-marks"></td>
+                <td><input type="number" id="ur-marks"></td>
+                <td><input type="number" id="is-marks"></td>
+                <td><input type="number" id="ph-marks"></td>
+            </tr>
+            <tr>
+                <td colspan="6"><button class="btn btn-outline-success" id="m-sheet" onclick="generate()">Generate Marksheet</button></td>
+            </tr>
+
+        </table>
+    </center>
+    <br><br><br><br><br>
+    <center>
+        <table class="table2">
+            <tr>
+                <th colspan="6">Marksheet</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Obtained Marks</th>
+                <th>Total Marks</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td id="nAme1"></td>
+                <td id="totmar"></td>
+                <td id="obtmar"></td>
+                <td id="per"></td>
+                <td id="grd"></td>
+            </tr>
+        </table>
+    </center>
+
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
